@@ -2,7 +2,7 @@ import serial
 import time
 
 # Replace 'COM6' with your Bluetooth port (Check Device Manager on Windows)
-bluetooth_serial = serial.Serial('COM7', 9600, timeout=1)
+bluetooth_serial = serial.Serial('COM8', 9600, timeout=1)
 time.sleep(2)  # Wait for connection
 
 print("Connected to Bluetooth. Type messages below:")
